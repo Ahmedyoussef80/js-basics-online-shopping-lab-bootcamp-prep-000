@@ -58,13 +58,22 @@ function addToCart(item) {
   return "That item is not in your cart."
  }	 }
  	 
+<<<<<<< HEAD
  function placeOrder(cardNumber) {	 function placeOrder(cardNumber) {
+=======
+	 function placeOrder(cardNumber) {
+>>>>>>> 744ca7f29ab97b7348fd375299a3313d254d436a
  if (arguments.length < 1) {
     return "Sorry, we don't have a credit card on file for you."
   } else {
     var transactionDescription = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
     
     cart = []
+<<<<<<< HEAD
     
     return transactionDescription
   }
+=======
+        return transactionDescription
+  }}
+>>>>>>> 744ca7f29ab97b7348fd375299a3313d254d436a
